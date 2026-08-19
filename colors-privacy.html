@@ -22,11 +22,11 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="updated">Colorize Photos · Effective and last updated August 1, 2026</p>
+    <p class="updated">Colorize Photos · Effective and last updated August 19, 2026</p>
 
     <p>This Privacy Policy explains what information Colorize Photos (the “App,” “we,” “us,” or “our”) collects, how it is collected and used, who receives it, and the choices available to you.</p>
 
-    <p class="notice"><strong>AI processing disclosure:</strong> Colorize Photos sends a resized copy of the photo you select, your selected color style, and any editing instructions you provide to <strong>Alibaba Cloud Model Studio</strong>, our third-party AI processing provider, to generate the image you request. The App asks for your explicit permission before the first upload or AI request.</p>
+    <p class="notice"><strong>AI processing disclosure:</strong> Colorize Photos sends a resized copy of the photo you select, your selected color style, and — when you use Pro mode — your selected output resolution to a third-party AI processing provider to generate the image you request. In Flash mode the photo is processed by <strong>Alibaba Cloud Model Studio</strong>; in Pro mode the photo is processed by <strong>RapidAPI (the Palette photo colorization service)</strong>. The App asks for your explicit permission before the first upload or AI request. For example, an old black-and-white family photo is sent so it can be colorized and returned to you.</p>
 
     <h2>1. Information We Collect</h2>
     <table>
@@ -46,8 +46,8 @@
     <h2>2. AI Processing and Your Permission</h2>
     <p>Before the App uploads a photo for AI processing, it presents an in-app notice identifying:</p>
     <ul>
-      <li>what will be sent: the selected photo, selected color style, and any editing instructions;</li>
-      <li>who receives it: Alibaba Cloud Model Studio; and</li>
+      <li>what will be sent: the selected photo, the selected color style, and — for Pro mode — the selected output resolution;</li>
+      <li>who receives it: Alibaba Cloud Model Studio (Flash mode) or RapidAPI, the Palette photo colorization service (Pro mode); and</li>
       <li>why it is sent: to produce the restoration, colorization, or edit you requested.</li>
     </ul>
     <p>Nothing is uploaded for this purpose unless you tap <strong>Agree &amp; Continue</strong>. If you choose <strong>Not Now</strong>, the photo remains on your device and no AI request is made. Your permission is stored on your device.</p>
@@ -58,7 +58,8 @@
     <table>
       <thead><tr><th>Provider</th><th>Data and purpose</th></tr></thead>
       <tbody>
-        <tr><td><strong>Alibaba Cloud Model Studio (DashScope)</strong></td><td>Receives a resized copy of the selected photo, color-style instructions, and any editing instructions to perform the third-party AI image processing you request.</td></tr>
+        <tr><td><strong>Alibaba Cloud Model Studio (DashScope)</strong></td><td>In Flash mode, receives a resized copy of the selected photo and color-style instructions to perform the third-party AI image processing you request.</td></tr>
+        <tr><td><strong>RapidAPI (Palette photo colorization service)</strong></td><td>In Pro mode, receives a resized copy of the selected photo, the auto-generated colorization prompt, your color style, and the output resolution to colorize the image you request.</td></tr>
         <tr><td><strong>Cloudflare R2</strong></td><td>Stores selected original photos and generated images so they can be processed, delivered, and shown in your History.</td></tr>
         <tr><td><strong>Supabase</strong></td><td>Provides authentication and stores account, image, job, and related service metadata.</td></tr>
         <tr><td><strong>RevenueCat</strong></td><td>Receives identifiers and purchase, subscription, credit, and entitlement information to manage in-app purchases and access.</td></tr>
@@ -81,7 +82,7 @@
     <p>We use reasonable administrative, technical, and organizational measures designed to protect information, including encrypted network transmission, authenticated access, and access controls. No method of electronic transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
 
     <h2>6. International Data Transfers</h2>
-    <p>Our providers may process information in countries or regions other than where you live, including locations where Alibaba Cloud Model Studio and our cloud providers operate. Where required, we use contractual or other lawful safeguards intended to protect transferred information.</p>
+    <p>Our providers may process information in countries or regions other than where you live, including locations where Alibaba Cloud Model Studio, RapidAPI (Palette), and our cloud providers operate. Where required, we use contractual or other lawful safeguards intended to protect transferred information.</p>
 
     <h2>7. Your Choices and Rights</h2>
     <p>Depending on where you live, you may have rights to access, correct, delete, restrict or object to processing, receive a portable copy, or withdraw consent. You may:</p>
