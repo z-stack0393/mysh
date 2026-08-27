@@ -1,4 +1,3 @@
-google.com, pub-9246935935162193, DIRECT, f08c47fec0942fa0
 toponad.com, ef06839adf5f20492957f5ae2c790eda, DIRECT, 1d49fe424a1a456d
 adagio.io, 1050, RESELLER
 admanmedia.com, 2433, RESELLER
@@ -97,4 +96,4 @@ video.unrulymedia.com, 905340553, RESELLER
 videoshakers.tv, 58204917364298, RESELLER, 819580c2afa8a3aa
 xandr.com, 13293, RESELLER, f5ab79cb980f11d1
 zetaglobal.net, 767, RESELLER
-
+google.com, pub-9246935935162193, DIRECT, f08c47fec0942fa0
